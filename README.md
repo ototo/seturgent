@@ -6,13 +6,18 @@ window that is specified by its ID either as a parameter, or as an
 environment variable named WINDOWID, which is usually set by terminal
 emulators.
 
-Can be quite useful to set urgency flag for terminals, which do not
-support setting it on terminal bell.
+Can be quite useful to set urgency flag for terminal emulators that
+do not support setting it on terminal bell.
 
-EXAMPLES
+Examples
+--------
 
+```sh
+# set urgent hint for the window specified by WINDOWID
 ./seturgent
-    set urgent hint for the window specified by WINDOWID
+```
 
+```sh
+# set urgent hint fot the window with ID = 238764
 ./seturgent 238764
-    set urgent hint fot the window with ID = 238764
+```
