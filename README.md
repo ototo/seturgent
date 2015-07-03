@@ -18,6 +18,6 @@ Examples
 ```
 
 ```sh
-# set urgent hint fot the window with ID = 238764
+# set urgent hint for the window with ID = 238764
 ./seturgent 238764
 ```
