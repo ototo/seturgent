@@ -13,7 +13,7 @@ Examples
 --------
 
 ```sh
-# set urgent hint for the window specified by WINDOWID
+# set urgent hint for the window specified by WINDOWID env var
 ./seturgent
 ```
 
