@@ -5,7 +5,7 @@ LIBS=`pkg-config --cflags --libs x11`
 OUTPUT=seturgent
 
 $(OUTPUT): seturgent.o
-	$(CC) $(CFLAGS) $(LIBS) -o $(OUTPUT) seturgent.o
+	$(CC) $(CFLAGS) -o $(OUTPUT) seturgent.o $(LIBS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -o $@ -c $<
